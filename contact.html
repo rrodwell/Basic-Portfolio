@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test1</title>
+<title>Contact</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 </head>
+
 <body>
+
+	<div class="logo">
+		<header>
+			Ryan Rodwell
+		</header>
+		<ul id="nav">
+		  <li><a href="index.html">About</a></li>
+		  <li>|</li>
+		  <li><a href="portfolio.html">Portfolio</a></li>
+		  <li>|</li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	
+	<div class="wrapper">
+
+		<section class="sectionOne">
+
+			<h2>Contact</h2>
+			
+			<hr>
+			
+			<form action="mailto:ryanrodwell@gmail.com" method="post" enctype="text/plain">
+			Name <br>
+			<input type="text" name="name" value="John Smith">
+			
+			<br><br>
+
+			Email <br>
+			<input type="text" name="mail" value="example@gmail.com">
+
+			<br><br>
+
+			Message <br>
+			<input type="text" name="message" style="padding-bottom: 25%">
+
+			<br><br><br>
+
+			<input type="submit" value="Submit">
+			</form>
+		</section>
+
+
+		<!-- Connect Info -->
+		
+		<section class="sectionTwo">
+			<h3>Connect with Me:</h3>
+			<hr>
+			<ul>
+				<li class="icons"> <a href="https://github.com/rrodwell" target="_blank"> <img src="assets/images/github.png" alt="Github" width="60" height="60"></a> </li>
+					
+				<li> <a href="https://www.linkedin.com/in/ryanrodwell/" target="_blank"> <img src="assets/images/linkedin.png" alt="LinkedIn" width="60" height="60"></a> </li>
+					
+				<li> <a href="http://stackoverflow.com/users/7412922/ryan-rodwell" target="_blank"> <img src="assets/images/stackoverflow.png" alt="Stackoverflow" width="60" height="60"></a> </li>
+			</ul>
+		</section>
+		
+	</div>
+
+	<footer class="site-footer">© Copyright 2017 Ryan Rodwell
+	</footer>
+	
 
 </body>
 </html>
