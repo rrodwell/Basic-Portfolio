@@ -142,15 +142,124 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
-.placeholder {
-	width: 250px;
-	height: 175px;
-	margin-top: 30px;
-	margin-bottom: 10px;
-	margin-left: 20px;
+.module {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 175px;
+  float: left;
+  background: url(../images/dummypic1.jpeg);
+  background-size: cover;
+  position: relative;
 }
 
+.module h2{	
+	float: left;
+	margin: 0;
+ 	margin-top: 125px;
+ 	padding: 12px 85px 12px 86px;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	color: white;
+ 	background: #4aaaa5;
+ }
+
+.module2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 175px;
+  float: left;
+  background: url(../images/dummypic2.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.module2 h2{	
+	float: left;
+	width: 250px;
+	margin: 0;
+ 	margin-top: 125px;
+ 	padding: 12px 70px 12px 70px;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	color: white;
+ 	background: #4aaaa5;
+ }
+
+.module3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 175px;
+  float: left;
+  background: url(../images/dummypic3.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.module3 h2{	
+	float: left;
+	width: 250px;
+	margin: 0;
+ 	margin-top: 125px;
+ 	padding: 12px 70px 12px 70px;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	color: white;
+ 	background: #4aaaa5;
+ }
+
+.module4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 175px;
+  float: left;
+  background: url(../images/dummypic4.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.module4 h2{	
+	float: left;
+	width: 250px;
+	margin: 0;
+ 	margin-top: 125px;
+ 	padding: 12px 40px 12px 40px;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	color: white;
+ 	background: #4aaaa5;
+ }
+
+.module5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 175px;
+  float: left;
+  background: url(../images/dummypic5.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.module5 h2{	
+	float: left;
+	width: 250px;
+	margin: 0;
+ 	margin-top: 125px;
+ 	padding: 12px 40px 12px 40px;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	color: white;
+ 	background: #4aaaa5;
+ }
 
 /* ----- Second Block ----*/
 
